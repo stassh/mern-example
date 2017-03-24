@@ -15,12 +15,13 @@
   "author": "Stanislav",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.2"              //simple http server
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.0",           //jsx->js babel parser cli tools
-    "babel-preset-es2015": "^6.24.0", //jsx->js es2015 for babel
-    "babel-preset-react": "^6.23.0",  //React support for babel
-    "nodemon": "^1.11.0"              //auto restart server
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "nodemon": "^1.11.0"
   }
 }
