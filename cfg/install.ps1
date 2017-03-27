@@ -13,3 +13,9 @@ db.employees.find();
 db.employees.find().pretty()
 
 db.employees.find({age: 44});
+
+db.employees.remove({"_id" : ObjectId("57b1caea3475bb1784747ccb")})
+db.employees.update({_id: ObjectId("57b1caea3475bb1784747ccb")}, {$set: {age: 44}})
+
+db.employees.createIndex({age: 1})
+
